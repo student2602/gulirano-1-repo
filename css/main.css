@@ -1,0 +1,314 @@
+
+/* libre-franklin-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/libre-franklin-v20-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* source-serif-4-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-serif-4-v14-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* tenor-sans-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/tenor-sans-v21-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Libre Franklin";
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.type {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 18px;
+
+}
+
+.author {
+
+    font-weight: 700;
+    font-style: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.item-name {
+    font-family: "Tenor Sans";
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+}
+
+.header {
+    padding: 37px 0px 35px 0px;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 60px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-item {
+    margin-right: 40px;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+.header-item-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000;
+}
+
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-content {
+    width: 430px;
+}
+
+.intro-slogan {
+    font-family: "Tenor Sans";
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.intro-text {
+    font-family: "Source Serif Pro";
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #666666;
+    margin-bottom: 28px;
+}
+
+.product {
+    margin-bottom: 90px;
+}
+
+.product-container {
+    padding-bottom: 65px;
+    border-bottom: 1px solid#E6E6E6;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.product-item {
+    width: 386px;
+    margin-bottom: 25px;
+}
+
+.product-item-img {
+    margin-bottom: 20px;
+}
+
+.posts {
+    margin-bottom: 90px;
+}
+
+.posts-container {
+    padding-bottom: 65px;
+    border-bottom: 1px solid#E6E6E6;
+    text-align: center;
+}
+
+.posts-title {
+    text-align: left;
+}
+
+.posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 85px;
+    text-align: left;
+}
+
+.posts-item {
+    width: 285px;
+    margin-bottom: 25px;
+
+}
+
+.posts-item-img {
+    margin-bottom: 20px;
+}
+
+.posts-link {
+
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 21px 26px;
+    color: #000;
+    border: 1px solid black;
+}
+
+.featured {
+    margin-bottom: 65px;
+
+}
+
+.featured-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured-item {
+    width: 590px;
+    margin-bottom: 25px;
+}
+
+.featured-item-img {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #141414;
+    color: #666666;
+    padding: 90px 0;
+}
+
+.footer-head {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 62px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #4D4D4D;
+}
+
+.footer-site-status {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.footer-body {
+    display: flex;
+
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 225px;
+    margin-bottom: 40px;
+}
+
+.footer-section:nth-child(5) {
+    width: 300px;
+}
+
+.footer-section-item {
+    margin-bottom: 15px;
+}
+
+.footer-section-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.footer-form {
+    width: 100%;
+    display: flex;
+}
+
+.footer-form-button {
+    font-size: 10px;
+    color: #fff;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 24px;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.footer-input {
+    padding: 18px 24px;
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+.footer-input:focus{
+    outline: none;
+}
